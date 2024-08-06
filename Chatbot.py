@@ -46,7 +46,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Set environment variable for Groq API key
-st.secrets["GROQ_API_KEY"]
+#st.secrets["GROQ_API_KEY"]
 #os.environ['GROQ_API_KEY'] = 'Your Api Key'
 
 # Define the LLM model
